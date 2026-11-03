@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+cowrie-env/
+
+# Cowrie runtime files and logs
+var/
+logs/
+*.log
+*.jsonl
+
+# Credentials and environment files
+.env
+.env.*
+userdb.txt
+userdb.txt.backup
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Potentially unsafe downloaded files
+downloads/
+
