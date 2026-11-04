@@ -1,26 +1,31 @@
+
 # Python
 __pycache__/
 *.pyc
-.venv/
-venv/
+*.pyo
+
+# Virtual environments
 cowrie-env/
+venv/
+.env/
 
-# Cowrie runtime files and logs
+# Cowrie runtime data
 var/
-logs/
 *.log
-*.jsonl
 
-# Credentials and environment files
-.env
-.env.*
+# Security logs
+alerts.jsonl
+logs/*
+!logs/.gitkeep
+
+# Private credentials
 userdb.txt
-userdb.txt.backup
+.env
 *.pem
 *.key
-id_rsa
-id_ed25519
 
-# Potentially unsafe downloaded files
-downloads/
+# OS files
+.DS_Store
+Thumbs.db
+
 
